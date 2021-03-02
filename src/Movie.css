@@ -1,0 +1,26 @@
+body{
+    background-color: coral;
+    text-transform: capitalize;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.movie-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    background-color: #fff;
+    width: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .img-main{
+      width: 30%;
+  }
+  .p-class{
+      margin-top: 16px;
+      letter-spacing: 2px;
+  }
